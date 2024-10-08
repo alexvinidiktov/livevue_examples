@@ -48,8 +48,7 @@ if config_env() == :prod do
       ip: {0, 0, 0, 0, 0, 0, 0, 0},
       port: port
     ],
-    check_origin: :conn,
-    # check_origin: ["https://alexvinidiktov-livevue-examples-d4a2.twc1.net"],
+    check_origin: ["https://alexvinidiktov-livevue-examples-d4a2.twc1.net"],
     secret_key_base: secret_key_base
 
   # ## SSL Support
