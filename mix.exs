@@ -46,7 +46,7 @@ defmodule LiveVueExamples.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.2"},
       # {:live_vue, path: ".."},
-      {:live_vue, "~> 0.4"},
+      {:live_vue, "~> 0.5.2"},
       {:nodejs, "~> 3.1"}
     ]
   end

@@ -23,10 +23,10 @@
     "phoenix_html": "file:../deps/phoenix_html",
     "phoenix_live_view": "file:../deps/phoenix_live_view",
     "pinia": "^2.1.7",
-    "primeicons": "^7.0.0",
     "primevue": "^4.0.3",
-    "quill": "^2.0.2",
     "topbar": "^2.0.2",
-    "vue": "^3.4.21"
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "^3.4.21",
+    "vuetify": "^3.7.1"
   }
 }
