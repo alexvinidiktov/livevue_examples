@@ -4,7 +4,7 @@ defmodule LiveVueExamplesWeb.LiveCounter do
   def render(assigns) do
     ~H"""
     <.header>LiveVue hybrid counter</.header>
-    <.vue id="counter" count={@count} v-component="Counter" v-socket={@socket} v-ssr={false} v-on:inc={JS.push("inc")} />
+    <.vue id="counter" count={@count} v-component="Counter" v-socket={@socket} v-ssr={true} v-on:inc={JS.push("inc")} />
     """
   end
 
