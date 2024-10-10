@@ -104,3 +104,5 @@ USER nobody
 # ENTRYPOINT ["/tini", "--"]
 
 CMD ["/app/bin/server"]
+
+EXPOSE 4000
