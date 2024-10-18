@@ -10,7 +10,7 @@ defmodule LiveVueExamples.Application do
     children = [
       {NodeJS.Supervisor, [path: LiveVue.SSR.NodeJS.server_path(), pool_size: 4]},
       LiveVueExamplesWeb.Telemetry,
-      {DNSCluster, query: Application.get_env(:live_vue_examples, :dns_cluster_query) || :ignore},
+      # {DNSCluster, query: Application.get_env(:live_vue_examples, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: LiveVueExamples.PubSub},
       # Start a worker by calling: LiveVueExamples.Worker.start_link(arg)
       # {LiveVueExamples.Worker, arg},
