@@ -4,7 +4,7 @@ defmodule LiveVueExamplesWeb.LivePrimeVue do
   def render(assigns) do
     ~H"""
     <.header>PrimeVue timeline example</.header>
-    <.vue v-component="PrimeVueExample" v-socket={@socket} v-ssr={false} />
+    <.vue v-component="PrimeVueExample" v-socket={@socket} v-ssr={true} />
     """
   end
 end

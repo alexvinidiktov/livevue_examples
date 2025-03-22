@@ -6,7 +6,7 @@ defmodule LiveVueExamplesWeb.CalendarLive do
     <.header>LiveVue Vuetify Calendar</.header>
 
     <div class="pb-60">
-      <.vue id="calendar" v-component="VuetifyCalendar" v-socket={@socket} v-ssr={false} />
+      <.vue id="calendar" v-component="VuetifyCalendar" v-socket={@socket} v-ssr={true} />
     </div>
     """
   end
