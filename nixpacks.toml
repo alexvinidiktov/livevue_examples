@@ -16,8 +16,8 @@ cmds = [
   "cd assets && npm install",  # Install Node.js dependencies
   "cd assets && npm run build",
   "cd assets && npm run build-server",  # Explicitly run the server build
-  "mix phx.digest"  # Instead of mix assets.deploy to avoid running build-server twice
   "npm install @vue/runtime-dom @vue/server-renderer vue",  # Install Vue packages for SSR
+  "mix phx.digest",  # Instead of mix assets.deploy to avoid running build-server twice
   "mix assets.deploy"
 ]
 
