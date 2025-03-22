@@ -26,6 +26,7 @@ cmds = [
   "mix local.rebar --force",
   "mix deps.get --only prod",
   "mix setup",
+  "npm install @vue/runtime-dom @vue/server-renderer vue primevue",  # Install Vue packages for SSR
   "mix assets.deploy"
 ]
 
