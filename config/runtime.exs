@@ -49,7 +49,7 @@ if config_env() == :prod do
       port: port
     ],
     # check_origin: :conn,
-    # check_origin: ["//phoenix-liveview.217.114.9.172.sslip.io"],
+    check_origin: ["//phoenix-liveview.217.114.9.172.sslip.io"],
     secret_key_base: secret_key_base
 
   # ## SSL Support
